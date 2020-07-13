@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start",
+    "portabilidade": "lerna run start --scope=portabilidade",
+    "existentes": "lerna run start --scope=existentes"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
